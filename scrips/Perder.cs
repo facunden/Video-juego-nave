@@ -17,7 +17,7 @@ public class Perder : MonoBehaviour {
 	public void Reiniciar()
     {
 
-        SceneManager.LoadScene(1);  //Al perder todas las vidas, se vuelve a la Escena 0 (inicio)
+        SceneManager.LoadScene(0);  //Al perder todas las vidas, se vuelve a la Escena 0 (inicio)
     }
     public void perder()
     {
